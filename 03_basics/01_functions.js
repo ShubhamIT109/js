@@ -21,3 +21,27 @@ function userLoginMessage(username){
     return `${username} welcome to my page`
 }
 console.log(userLoginMessage("shubham"))
+
+function addCartItem(num1,num2,...value1){ //... is used to denote as rest and spread both 
+      return value1
+}
+console.log(addCartItem(100,34,29,59))
+
+const myObject ={
+    coursename : "java",
+    price:2000,
+    duration:6
+}
+
+function objexp(obj1){
+console.log(`Course Name is ${obj1.coursename} and duration of course is ${obj1.duration} and it will cost ${obj1.price} `)
+}
+
+objexp(myObject)
+
+const myArray = [100,7768,2778,2989]
+
+function arrexp(arr1){
+console.log(arr1[1])
+}
+arrexp(myArray)
